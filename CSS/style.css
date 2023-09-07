@@ -1,0 +1,20 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'font', sans-serif;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+https://everythingfonts.com/font-face
+https://webfonts.pro/base-web-fonts/sans-serif-grotesque/1165-inter.html
