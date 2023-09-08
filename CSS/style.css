@@ -6,9 +6,6 @@ html {
 *::after {
     box-sizing: inherit;
 }
-body {
-    font-family: 'font', sans-serif;
-}
 a {
     color: inherit;
     text-decoration: none;
@@ -16,5 +13,209 @@ a {
 img {
     max-width: 100%;
 }
-https://everythingfonts.com/font-face
-https://webfonts.pro/base-web-fonts/sans-serif-grotesque/1165-inter.html
+@font-face {
+    font-family: 'inter';
+    src: url(../fonts/InterLight.woff2) format('woff2');
+    font-display: swap;
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'inter';
+    src: url(../fonts/InterRegular.woff2) format('woff2');
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'inter';
+    src: url(../fonts/InterMedium.woff2) format('woff2');
+    font-display: swap;
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'inter';
+    src: url(../fonts/InterBold.woff2) format('woff2');
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'inter';
+    src: url(../fonts/InterSemiBold.woff2) format('woff2');
+    font-display: swap;
+    font-weight: 600;
+    font-style: normal;
+}
+body {
+    font-family: 'font', sans-serif;
+}
+:root {
+    --color-white: #fff;
+    --color-grey: #838383;
+    --color-dark: #1d1d1f;
+}
+.header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.container {
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.logo {
+}
+.header__right {
+}
+.header__search {
+}
+.nav__list {
+}
+.nav {
+}
+.item {
+}
+.nav__link {
+}
+.main {
+}
+.hero {
+    padding: 400px;
+   background-image: url('../images/Hero-bg.jpg'); 
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+.hero__title {
+    margin: 0;
+}
+.hero__text {
+}
+.hero__btn {
+}
+.btn {
+}
+.about {
+}
+.about__top {
+}
+.about__col {
+}
+.about__list {
+}
+.about__item {
+}
+.complited {
+}
+.complited__value {
+}
+.complited__descr {
+}
+.about__title {
+}
+.about__text {
+}
+.about__descr {
+}
+.about__video {
+}
+.about__play {
+}
+.portfolio {
+}
+.visually-hidden {
+}
+.portfolio__list {
+}
+.portfolio-item {
+}
+.portfolio-item__col {
+}
+.portfolio-item__title {
+}
+.portfolio-item__deskr {
+}
+.btn-dark {
+}
+.portfolio-item__img {
+}
+.portfolio--item__reverse {
+}
+.quote {
+}
+.quote__title {
+}
+.quote__content {
+}
+.quote__text {
+}
+.quote__author {
+}
+.services {
+}
+.services__image {
+}
+.services__list {
+}
+.services-item {
+}
+.services-item__col {
+}
+.services-item__title {
+}
+.services-item__discr {
+}
+.footer {
+}
+.footer__col {
+}
+.footer__address {
+}
+.footer__social {
+}
+.social {
+}
+.social__item {
+}
+.social__link {
+}
+.footer__title {
+}
+.footer__form {
+}
+.footer__input {
+}
+.footer__btn {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
