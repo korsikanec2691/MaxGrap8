@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>MaxGrap8</title>
-    <!-- <link rel="stylesheet" href="css/reset.css"> -->
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/jquery.fancybox.css">
     <link rel="stylesheet" href="css/style.css">
@@ -17,11 +17,16 @@
 
 
     <header class="header">
-        <div class="container">
+        <div class="container header__container">
             <a href="#" class="logo">Company</a>
             <div class="header__right">
-                <button class="header__search" aria-label="search"></button>
-                nav.header__nav <nav>
+                <button class=" btn__reset header__search" aria-label="search">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="11.7666" cy="11.7666" r="8.98856" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M18.0183 18.4851L21.5423 22" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                </button>
+                <nav class="header__nav nav">
                     <ul class="nav__list">
                         <li class="nav item"><a href="#" class="nav__link"> Portfolio</a></li>
                         <li class="nav item"><a href="#" class="nav__link">Team</a></li>
@@ -43,7 +48,7 @@
                     Mattis quam, lectus et&nbsp;justo amet, tortor, lectus dapibus est. Habitasse efficitur sodales vel
                     est.
                 </p>
-                <button class="hero__btn btn">
+                <button class=" btn__reset hero__btn btn">
                     Button
                 </button>
             </div>
@@ -109,7 +114,7 @@
                 </div>
                 <div class="about__video">
                     <video src=""></video>
-                    <button class="about__play" aria-level="play video"></button>
+                    <button class="btn__reset about__play" aria-level="play video"></button>
                 </div>
             </div>
         </section>
@@ -129,7 +134,7 @@
                                 Mauris eget nec nulla dolor&nbsp;ex. Sodales luctus pellentesque cras ornare lorem
                                 luctus lectus sed consectetur quam, est. Libero, odi
                             </div>
-                            <button class="btn btn-dark">Button</button>
+                            <button class="btn__reset btn btn-dark">Button</button>
                             <img class="portfolio-item__img" src="" alt="portfolio 1">
                         </div>
                     </li>
@@ -142,7 +147,7 @@
                                 it&nbsp;pulvinar tempus amet dolor dui vulputate tortor, luctus lorem in&nbsp;nunc
                                 eleifend ipsum justo et&nbsp;venenatis dictumst.
                             </div>
-                            <button class="btn btn-dark">Button</button>
+                            <button class="btn__reset btn btn-dark">Button</button>
                             <img class="portfolio-item__img" src="" alt="portfolio 1">
                         </div>
                     </li>
@@ -266,7 +271,7 @@
                </h2> 
                <form action="#" class="footer__form">
                 <input type="email" name="email" class="footer__input" placeholder="email">
-                <button class="footer__btn" aria-label="Send E-email"></button>
+                <button class="btn__reset footer__btn" aria-label="Send E-email"></button>
                </form>
             </div>
         </div>

@@ -67,13 +67,47 @@ body {
     padding: 0 15px;
     margin: 0 auto;
 }
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .logo {
+    font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: 130%;
+color: var(--color-white);
+/* padding-top: 40px; */
 }
 .header__right {
+    display: flex;
+    justify-content: space-between;
+}
+.btn__reset {
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
 }
 .header__search {
+    width: 24px;
+    height: 24px;
+}
+.header__search svg {
+    display: block;
+    width: 1000%;
+    height: 100%;
+    object-fit: cover;
 }
 .nav__list {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+color: var(--color-white);
 }
 .nav {
 }
